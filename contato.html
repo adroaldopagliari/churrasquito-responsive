@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/tablet.css" media="(max-width:600px)">
 		<link rel="stylesheet" type="text/css" href="css/mobile.css" media="(max-width:480px)">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 		<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
 		<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
 		<script type="text/javascript" src="js/modernizr.js"></script>
@@ -35,17 +36,22 @@
 			<img src="imgs/3.jpg" title="Receitas Especiais" alt="Receitas Especiais">
 		</div>
 		<main>
-		<h1>Novas Receitas</h1>
-		<div class="receita">
-			<img src="imgs/foto1.jpg" alt="Costelinha" title="Costelinha">
-			<p><strong>Costelinha Suína ao molho Barbie Kill</strong></p>
-			<p><a href="costelinha.html" title="Costelinha" class="btn">Ver Receita</a></p>
-		</div>
-		<div class="receita">
-			<img src="imgs/foto2.jpg" alt="Espetinho de Gato" title="Espetinho de gato">
-			<p><strong>Espetinho de Gato</strong></p>
-			<p><a href="espetinho.html" title="Espetinho de Gato" class="btn">Ver Receita</a></p>
-		</div>
+		<h1>Entre em contato</h1>
+		<form name="form1" method="post" action="">
+			<label for="nome">Seu nome:</label>
+			<input type="text" name="nome" class="box" placeholder="Digite seu nome completo" required>
+			<br>
+			<label for="email">Seu e-mail:</label>
+			<input type="email" name="email" class="box" placeholder="Digite seu e-mail" required>
+			<br>
+			<label for="mensagem">Mensagem:</label>
+			<textarea name="mensagem" required class="box" rows="5"></textarea>
+			<br>
+			<button type="submit" class="btn">
+			<i class="fa fa-check fa-2x"></i>	Enviar Mensagem
+			</button>
+		</form>
+		
 		</main>
 		<footer>
 			<p>Churrasquito - Todos os direitos reservados</p>

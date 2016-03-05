@@ -88,18 +88,33 @@ footer {
 	font: 1em Rokkitt, Tahoma;
 	color: #fff;
 }
-footer a{
+footer a {
 	text-decoration: none;
 	opacity: 0.5;
 	transition: all 0.5s;
 }
 footer a:hover {
 	opacity: 1;
-};
+}
 #banner {
+	width: 100%;
+	overflow: hidden;
+	max-height: 400px;
+	text-align: center;
+	background: #000;
 	float: left;
-	width: 100%;	 
 }
 #banner img {
 	width: 100%;
+}
+.box {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+	width: 90%;
+	padding: 10px;
+}
+label {
+	font: 1em Rokkitt, Tahoma;
+	margin: 10px;
 }
